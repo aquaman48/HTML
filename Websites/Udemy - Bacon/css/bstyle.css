@@ -1,0 +1,47 @@
+/*********************HTML SELECTOR ************************/
+html {
+  background-color: darkblue;
+  text-align: center;
+
+}
+
+/************************TAG SELECTORS*****************************/
+hr {
+  border-top-color: maroon;
+  border-style: none;
+  border-top-style: ridge;
+  border-width: 5px;
+  width: 45%;
+
+}
+h1 {
+  color: purple;
+  font-size: 100px;
+  font-weight: bold;
+}
+img:hover {
+  background-color: gold;
+}
+
+p {
+  color: white;
+  font-family: cursive;
+  white-space: nowrap;
+}
+
+p:hover, h1:hover {
+  color: red;
+}
+
+
+/***********************CLASS SELECTORS************************/
+.bacon {
+  background-color: red;
+}
+.pig {
+  background-color: white;
+}
+
+.circle {
+  border-radius: 100%;
+}
