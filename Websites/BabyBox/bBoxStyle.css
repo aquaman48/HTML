@@ -1,0 +1,62 @@
+/*
+html {
+  text-align: center;
+}*/
+
+body {
+  background-color: aliceblue;
+  font-family: Georgia, "Times New Roman", Times, serif;
+  font-size: medium;
+  margin: 5px;
+}
+
+h1 {
+  font-size: 150%;
+  color: crimson;
+}
+
+h2 {
+  font-size: 125%;
+}
+
+nav {
+  /* background-color: #efe5d0; */
+  margin: 10px 10px 0px 10px;
+  text-align: center;
+}
+nav ul {
+  margin: 0px;
+  list-style-type: none;
+  padding: 5px 0px 5px 0px;
+}
+nav ul li {
+  display: inline;
+  padding: 5px 10px 5px 10px;
+  /*background-color: aqua; */
+}
+
+aside {
+  display: table-cell;
+  float: right;
+}
+
+#packages ul {
+  list-style-type: none;
+}
+
+/*Use center class for divs and to center content */
+.center {
+  text-align: center;
+}
+
+.box {
+  height: 100px;
+  width: 300px;
+  /* padding: auto; */
+  margin-left: 200px;
+  padding-bottom: 50px;
+  padding-top: 25px;
+}
+div ul li {
+  padding-bottom: 10px;
+}
