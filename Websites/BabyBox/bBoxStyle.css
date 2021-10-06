@@ -71,6 +71,10 @@ aside {
   text-decoration: none;
 }
 
+a.item:hover {
+  color: pink;
+}
+
 div ul li {
   padding-bottom: 10px;
 }
