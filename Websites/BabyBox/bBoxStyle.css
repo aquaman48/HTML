@@ -11,12 +11,12 @@ body {
 }
 
 h1 {
-  font-size: 150%;
-  color: red;
+  font-size: 300%;
+  color: whitesmoke;
 }
 
-h2 {
-  font-size: 125%;
+h3 {
+  font-size: 150%;
 }
 
 nav {
@@ -61,10 +61,13 @@ aside {
 #bgImg {
   background-image: url(Images/FatherBabyXL.jpg);
   background-color: whitesmoke;
-  height: 300px;
+  background-repeat: no-repeat;
+  background-size: 100% 100%;
+
+  height: 600px;
   width: auto;
-  margin: auto;
-  padding: auto;
+  position: relative;
+  text-align: center;
 }
 
 .item {
@@ -77,4 +80,12 @@ a.item:hover {
 
 div ul li {
   padding-bottom: 10px;
+}
+
+#bottomTxt {
+  position: absolute;
+  color: white;
+  bottom: 0;
+  width: 100%;
+  padding: 15px 0;
 }
